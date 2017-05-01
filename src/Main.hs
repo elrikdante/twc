@@ -1,11 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
-import Control.Lens hiding ((.=))
 import Control.Monad (void,forever)
 import Network.Wreq
-import Network.Wreq.Types
-import Network.Wreq.Lens
-import Data.Aeson
 import Data.Text (pack)
 import System.Environment as IO
 
