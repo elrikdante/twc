@@ -2,8 +2,8 @@
 unix | phone -> unix to sms
 
 # Installation
-`stack build`
-`stack install`
+- `stack build`
+- `stack install`
 
 # Getting Stack
 `curl -sSL https://get.haskellstack.org/ | sh`
